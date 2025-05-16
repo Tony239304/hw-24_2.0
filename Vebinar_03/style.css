@@ -1,0 +1,47 @@
+
+div {
+    vertical-align: top;
+}
+
+
+html {
+    --wrapper-width: 1240px;
+    --box-width: 260px;
+    --box-numbers: 4;
+}
+
+.recommendation {
+    background-color: aquamarine;
+}
+
+.recommendation-item {
+    box-sizing: border-box;
+    display: inline-block;
+    width: var(--box-width);
+    height: 300px;
+    background-color: coral;
+    padding: 12px;
+    margin-right: calc(
+            (var(--wrapper-width) - (var(--box-width)) * var(--box-numbers)
+            ))/var(--box-numbers) -4px;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    border: 1px dotted black;
+}
+
+.first, .second {
+    width: 240px;
+    height: 100px;
+    background-color: brown;
+}
+
+.first {
+    margin-bottom: 17px;
+}
+
+.second {
+    margin-top: 16px;
+}

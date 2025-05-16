@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    color: black;
+}
+
+#pic_face {
+    width: 50%;
+    height: 50%;
+    border-radius: 5%;
+
+}
+
+#description {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#contact span, span {
+    color: black;
+}
+#TEAM{
+    width: 100%;
+}
+
+#TEAM td, th {
+    border: 2px solid black;
+    font-size: 17px;
+}
+
+#profile\ header {
+    width: 100%;
+    text-align: center;
+}
+
+.columns {
+
+    background-color: floralwhite;
+}

@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+#main_tbl {
+    width: 30vw;
+    height: 100vh;
+    border: 1px solid black;
+    margin: 0;
+    text-align: center;
+
+}
+
+#main_tbl td, th {
+    border: 1px solid black;
+}
+
+.main_h1 {
+    width: 50%;
+}
+
+.main_img {
+    width: 100%;
+}
+
+.btn {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: cornsilk;
+    cursor: pointer;
+}
+.red{
+    color: red;
+}
+
+.fedev{
+    padding: 5px 10px 15px 20px;
+}
+
+.copy{
+
+
+}

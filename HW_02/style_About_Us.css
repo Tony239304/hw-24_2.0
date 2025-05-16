@@ -1,0 +1,153 @@
+#logo {
+    text-align: center;
+}
+
+#Logo_name {
+    color: red;
+    text-align: center;
+    font-size: 20px;
+}
+
+#pre_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Home {
+    font-size: 15px;
+    margin-right: 7px;
+    text-align: center;
+
+}
+
+#About_us {
+    font-size: 15px;
+    text-align: center;
+    margin-right: 7px;
+}
+
+
+#content {
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+#About {
+    display: flex;
+    padding-right: 0px;
+    text-align: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+
+
+}
+
+#description {
+    margin-top: 10px;
+    margin-left: 250px;
+    display: flex;
+    box-sizing: border-box;
+
+}
+
+#content_about {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#LivMessage {
+    text-align: center;
+
+}
+
+input::placeholder {
+    font-style: italic;
+
+}
+
+
+#input_email {
+    margin-left: 697px;
+}
+
+#input_message {
+    margin-left: 683px;
+    width: 300px;
+    height: 40px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#Gender {
+    margin-left: 672px;
+    margin-top: 0px;
+
+
+}
+
+#input-label {
+    margin-top: 400px;
+    margin-left: 670px;
+}
+
+#inputs {
+    width: 400px;
+    margin: 0 auto;
+
+
+}
+
+#btn {
+    margin-left: 670px;
+}
+
+.input-row-Email {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.input-row-Message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+label {
+    width: 100px;
+    margin-right: 10px;
+    text-align: right;
+    font-weight: bold;
+}
+
+input[type="text1"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 10px;
+    margin-right: 100px;
+
+
+}
+
+input[type="text2"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 15px;
+    height: 80px;
+}
+
+lable[for="userName"] {
+
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

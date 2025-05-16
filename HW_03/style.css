@@ -1,0 +1,155 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('img/bg-new.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1200px;
+
+}
+
+
+/*.bg_img {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    z-index: -1;*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    position: relative;*/
+/*    height: 100vh;*/
+
+
+/*}*/
+
+
+.nav {
+    width: 400px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-left: 120px;
+    position: relative;
+    bottom: 400px;
+    color: white;
+    font-weight: 80;
+}
+
+.content {
+    position: relative;
+    bottom: 335px;
+    left: 120px;
+    color: white;
+    font-size: 25px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.QA {
+    padding: 0;
+    position: relative;
+    left: 0px;
+    top: 20px;
+    color: white;
+    font-size: 21px;
+    font-weight: 100;
+}
+
+
+.btn {
+    height: 50px;
+    width: 170px;
+    border-radius: 10px;
+    position: relative;
+    top: 70px;
+    border: 1px solid white;
+}
+
+.text_btn {
+    position: relative;
+    top: 15px;
+    left: 39px;
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+}
+
+.img_tel {
+    position: relative;
+    top: 60px;
+    left: 870px;
+    width: 295px;
+    height: 600px;
+    margin-bottom: 0;
+    padding: 0;
+
+
+}
+
+.container {
+    position: relative;
+    top: 470px;
+    left: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    padding: 0;
+    position: absolute;
+    top: 736px;
+    height: 510px;
+    width: 1630px;
+    background-color: orange;
+
+
+
+}
+
+.web, .mobile, .software, .development {
+    padding: 0;
+    margin: 0;
+}
+
+.icon1, .icon2, .icon3, .icon4 {
+    width: 50px;
+    height: 50px;
+}
+
+.text1, .text2, .text3, .text4 {
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    font-weight: 100;
+}
+
+.cards {
+    position: relative;
+    left: 100px;
+    display: flex;
+    height: 50px;
+    text-align: center;
+    margin: 0;
+    padding-top: 200px;
+
+
+
+}
+
+.card1, .card2, .card3, .card4 {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding-left: 70px;
+}
+
+.title1, .title2, .title3, .title4 {
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+h1{
+    color: orange;
+}
+/*selector for id*/
+#phone{
+    background-color: antiquewhite;
+}
+.big_text{
+    font-size: 18px;
+}
+
+
+#main_pic{
+    width: 25%;
+}
+#work{
+    width: 95%;
+    border: black solid 2px;
+}
+#work td,th {
+    border: 1px solid black;
+}
+/*td{*/
+/*    text-align: center;*/
+/*}*/
+#header{
+    width: 100%;
+    text-align: center;
+}

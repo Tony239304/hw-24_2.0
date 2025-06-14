@@ -2,5 +2,19 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HW_04/CW_05_GitHub" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TR_FrontEnd" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TR_FrontEnd/CW-10" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TR_FrontEnd/CW_06" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TR_FrontEnd/CW_07_Var_Animation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TR_FrontEnd/CW_09JavaScripts_Data_Type" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TR_FrontEnd/HW_07" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TR_FrontEnd/HW_08" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TR_FrontEnd/HW_09" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TR_FrontEnd/HW_10" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TR_FrontEnd/RegEx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TR_FrontEnd/Vebinar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/untitled" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/untitled1/third_project" vcs="Git" />
   </component>
 </project>

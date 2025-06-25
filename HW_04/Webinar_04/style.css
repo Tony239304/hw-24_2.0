@@ -1,0 +1,40 @@
+@import url('footer.css');
+@import url('navigation.css');
+@import url('var.css');
+
+
+
+
+
+.main_article .text{
+    color: red;
+}
+
+
+
+html{
+    background-color: lightgray;
+}
+
+
+
+body{
+    background-color: lightgray;
+}
+
+.text{
+    color: var(--textcolor);
+
+}
+
+
+
+/*specifity - (I, C, T)
+
+T = tag name count in selector
+C = class name count in selector
+I = id name count in selector
+
+
+
+*/

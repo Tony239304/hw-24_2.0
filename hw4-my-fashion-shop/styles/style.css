@@ -1,0 +1,193 @@
+* {
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+}
+
+.b {
+    border: 1px solid black;
+}
+
+/*==========HEADER=============*/
+#header {
+    background-color: #8d8b8b;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-weight: lighter;
+
+}
+
+.nav {
+    flex-grow: 10;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.container {
+    display: flex;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.top {
+    align-items: center;
+}
+
+.search {
+    padding: 0.5rem;
+    border: 1px solid whitesmoke;
+    border-collapse: collapse;
+    border-radius: 1rem;
+    background-color: inherit;
+    width: 15rem;
+    margin-right: 1rem;
+}
+
+.search::placeholder {
+    color: lightgray;
+    font-style: italic;
+}
+
+.cart {
+    position: relative;
+}
+
+.dot {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #ff75c9;
+    left: 3px;
+    bottom: 3px;
+}
+
+/*===========PRODUCT============*/
+.sides {
+    justify-content: space-between;
+}
+
+#product {
+    margin: 3rem 0;
+}
+
+.info {
+    width: 48vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 3rem 0 0;
+}
+
+.text-info {
+    flex-grow: 10;
+}
+
+.type-box {
+    display: flex;
+}
+
+.type-box div {
+    border: 1px solid #ccc;
+    color: #ccc;
+    width: 40px;
+    text-align: center;
+    font-size: 12px;
+    padding: 14px 0;
+    border-radius: 5px;
+}
+
+.actions {
+    position: relative;
+}
+
+.actions p {
+    margin: 0.5rem auto;
+}
+
+.add-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 7px 15px;
+    border-radius: 15px;
+    color: whitesmoke;
+    background-color: black;
+}
+
+/*=========GALLERY============*/
+
+.gallery {
+    width: 48vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery .main-img {
+    height: 60vh;
+    overflow: hidden;
+    border-radius: 1rem;
+    flex-grow: 10;
+}
+
+.gallery .main-img img {
+    width: 100%;
+}
+
+.gallery .prev {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.gallery .prev img {
+    width: calc(100% / 4 - 5px);
+}
+
+.gallery img {
+    border-radius: 1rem;
+}
+
+.actions-small {
+    display: none;
+}
+
+@media ( max-width: 960px) {
+    .search, .actions {
+        display: none;
+    }
+
+    .actions-small {
+        display: block;
+        position: relative;
+
+    }
+
+    .container {
+        width: 94vw;
+    }
+
+
+    .sides {
+        flex-direction: column;
+    }
+
+    .info, .gallery {
+        width: 100%;
+
+    }
+
+    .nav {
+        flex-grow: 0;
+
+    }
+
+    .title {
+        flex-grow: 10;
+    }
+}
